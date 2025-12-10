@@ -1,15 +1,33 @@
-export default function HomeNavbar() {
+export default function HomeNavbar({ active }: { active: string }) {
+  const items = [
+    "Home",
+    "Testimonials",
+    "Survival Stories",
+    "Resources",
+    "Profile",
+    "Get Help"
+  ];
+
   return (
-    <div className="bg-[#191624] text-center text-white">
-    <div className="p-4 border-b-3 border-[#2a263c] border-solid text-4xl font-bold">EmpowerHer</div>
-    <div className="flex flex-row justify-evenly p-3 border-[#2a263c] border-b-3 border-solid">
-        <p>Home</p>
-        <p>Testimonials</p>
-        <p>Survival Stories</p>
-        <p>Resources</p>
-        <p>Profile</p>
-        <p>Get Help</p>
+    <div>
+      <div className="p-4 border-b-3 border-[#2a263c] border-solid text-4xl font-bold">
+        EmpowerHer
+      </div>
+
+      <div className="p-3 flex flex-row justify-evenly border-[#2a263c] border-b-3 border-solid">
+        {items.map((item) => (
+          <p
+            key={item}
+            className={
+              item === active
+                ? "text-[#8a63d2] font-semibold cursor-pointer"
+                : "text-white opacity-70 hover:opacity-100 cursor-pointer"
+            }
+          >
+            {item}
+          </p>
+        ))}
+      </div>
     </div>
-    </div>
-  )
+  );
 }

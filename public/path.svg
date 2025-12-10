@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 400 950"
+    class="path-svg"
+    fill="none"
+    stroke="#3b335b"
+    stroke-width="8"
+    stroke-linecap = "round"
+    stroke-linejoin = "round"
+>
+    <path
+        d="M 200 100 
+           V 180 
+           C 200 230, 200 230, 250 230 
+           H 300 
+           C 350 230, 350 230, 350 280 
+           V 380
+           C 350 430, 350 430, 300 430
+           H 100
+           C 50 430, 50 430, 50 480
+           V 580
+           C 50 630, 50 630, 100 630
+           H 300
+           C 350 630, 350 630, 350 680
+           V 780
+           C 350 830, 350 830, 300 830
+           H 200"
+    />
+</svg>

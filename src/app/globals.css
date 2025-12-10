@@ -119,3 +119,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.module-1 { top: 100px; left: 200px; }
+.module-2 { top: 230px; left: 350px; }
+.module-3 { top: 430px; left: 50px; }
+.module-4 { top: 630px; left: 50px; }
+.module-5 { top: 630px; left: 350px; }
+.module-6 { top: 830px; left: 200px; }
+

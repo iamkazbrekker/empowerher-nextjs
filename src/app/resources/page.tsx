@@ -14,10 +14,10 @@ function Resources() {
     ]
     return (
         <div>
-            <nav className="sticky top-0 w-full bg-[#191624] text-center text-white z-50">
+            <nav className="">
                 <HomeNavbar active="Resources" />
             </nav>
-            <main className="bg-[#191624] text-center text-white">
+            <main className="bg-[#191624] text-center text-white flex-1">
                 <div className="text-[#8a63d2] text-3xl p-4 font-bold">Resources</div>
                 <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6 bg-[#191624]">
                     {elements.map(item => (

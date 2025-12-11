@@ -127,3 +127,21 @@
 .module-5 { top: 630px; left: 350px; }
 .module-6 { top: 830px; left: 200px; }
 
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden;
+}
+
+

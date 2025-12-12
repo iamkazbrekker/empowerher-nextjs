@@ -10,7 +10,7 @@ import { PlusIcon } from "lucide-react"
 import { useState } from "react"
 
 function Testimonials() {
-    const [open,  setOpen] = useState(false)
+    const [open, setOpen] = useState(false)
     return (
         <div className="bg-[#191624] text-white flex flex-col min-h-screen">
             <nav className="sticky top-0 w-full text-center z-50">
@@ -29,13 +29,13 @@ function Testimonials() {
                     </div>
                 </div>
                 {open && (
-                <div className="fixed top-0 left-0 right-0 bottom-0 bg-black/80 z-1000  justify-center">
-                    <div className="bg-[#1f1b2c] p-5 rounded-[20px] w-[90vw] flex flex-col gap-4 m-16">
-                    <input className="h-[120px] p-2.5 resize-none rounded-[6px] bg-[#2a263c]" placeholder="Write your testimonial here..."></input>
-                    <Button className="bg-[#8a63d2] hover:bg-[#a07ae6]" onClick={()=> setOpen(false)}>Submit</Button>
-                    <Button variant={"destructive"} onClick={()=> setOpen(false)}>Cancel</Button>
+                    <div className="fixed top-0 left-0 right-0 bottom-0 bg-black/80 z-1000  justify-center">
+                        <div className="bg-[#1f1b2c] p-5 rounded-[20px] w-[90vw] flex flex-col gap-4 m-16">
+                            <input className="h-[120px] p-2.5 resize-none rounded-[6px] bg-[#2a263c]" placeholder="Write your testimonial here..."></input>
+                            <Button className="bg-[#8a63d2] hover:bg-[#a07ae6]" onClick={() => setOpen(false)}>Submit</Button>
+                            <Button variant={"destructive"} onClick={() => setOpen(false)}>Cancel</Button>
+                        </div>
                     </div>
-                </div>
                 )}
 
             </main>

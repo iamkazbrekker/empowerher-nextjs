@@ -143,5 +143,16 @@
 .flip-card-back {
   backface-visibility: hidden;
 }
+.iconList {
+  font-size: 1.2rem;
+  width: 40px;
+    text-align: center;
+    color: #8a63d2;
+}
+.profileOptions {
+    flex-grow: 1;
+    margin-left: 1rem;
+    text-align: left;
+}
 
 

@@ -10,9 +10,9 @@ function LoginPage() {
         <h2 className="mb-5 text-2xl font-bold">Login</h2>
 
 
-          <input id="email" type="text" placeholder="E-Mail" className="w-19/20 p-3 my-2.5 mx-0 rounded-xl b-solid b-[#cccccc] bg-white text-black h-10"/>
+          <input id="email" type="text" placeholder="E-Mail" className="w-19/20 p-3 border border-solid my-2.5 mx-0 rounded-xl b-solid b-[#cccccc] bg-white text-black h-10"/>
 
-          <input id="password" type="text" placeholder="Password" className="w-19/20 p-3 my-2.5 mx-0 rounded-xl b-solid b-[#cccccc] bg-white text-black h-10"/>
+          <input id="password" type="text" placeholder="Password" className="w-19/20 p-3 border border-solid my-2.5 mx-0 rounded-xl b-solid b-[#cccccc] bg-white text-black h-10"/>
 
 
         <button className="w-19/20 bg-[#8a63d2] text-white font-bold rounded-xl cursor-pointer mt-3 h-10 hover:bg-[#8a2be2]">Login</button>

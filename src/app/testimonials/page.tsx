@@ -4,13 +4,14 @@ import Footer from "@/components/footer"
 import HomeNavbar from "@/components/navbar"
 import TestimonialCard from "@/components/testimonial-card"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import data from "@/data/values.json"
+import axios from "axios"
 import { PlusIcon } from "lucide-react"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function Testimonials() {
     const [open, setOpen] = useState(false)
+
     return (
         <div className="bg-[#191624] text-white flex flex-col min-h-screen">
             <nav className="sticky top-0 w-full text-center z-50">

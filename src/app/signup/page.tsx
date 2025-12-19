@@ -34,7 +34,7 @@ function SignupPage() {
 
 
                 <button onClick={onSignup} className="w-19/20 bg-[#8a63d2] text-white font-bold rounded-xl cursor-pointer mt-3 h-10 hover:bg-[#8a2be2]">SignUp</button>
-                <p className="mt-[15px]">Already have an account? <Link href="/login" className="text-[#8a63d2] font-semibold">Login</Link></p>
+                <p className="mt-[15px]">Already have an account? <Link href="/" className="text-[#8a63d2] font-semibold">Login</Link></p>
             </div>
         </div>
     )
